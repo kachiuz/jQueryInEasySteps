@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html lang = "en">
+	<head>
+		<meta charset = "UTF-8">
+		<title>jQuery Ready Function</title>
+		<script src = "jquery-3.3.1.js"></script>
+		<script>
+			//jQuery.noConflict() ;
+			$(document).ready(function(){
+				$("li.rest").text("Generated Content");
+			});
+		</script>
+	</head>
+	<body>
+		<ol>
+			<li class="start">Item
+			<li class="rest">Item
+			<li class="rest">Item
+		</ol>
+	</body>
+</html>
